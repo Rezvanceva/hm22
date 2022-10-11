@@ -64,7 +64,7 @@ class ClassTestCase(SkyproTestCase):
 
     def test_class_Tree_has_expected_methods(self):
         inspected_class = main.Tree
-        expected_methods = ['on_fire', 'defense',]
+        expected_methods = ['on_fire', 'defense']
         
         object_methods = [
             method_name for method_name in dir(inspected_class)

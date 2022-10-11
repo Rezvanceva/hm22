@@ -67,9 +67,10 @@ class Person:
 
     def use_transport(self, transport: Transport):
         transport.start_engine()
+        transport.stop_engine()
         transport.move()
         transport.stop()
-        transport.stop_engine()
+
 
 
 if __name__ == '__main__':

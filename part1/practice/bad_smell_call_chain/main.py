@@ -35,10 +35,10 @@ class Person:
         self.planet = Planet()
 
     def get_person_room(self):
-        return self.planet.get_contry().get_city().get_street().get_room().get_name()
+        return self.get_name()
 
     def get_city_population(self):
-        return self.planet.get_contry().get_city().population()
+        return self.population()
 
 
 # TODO после выполнения задания попробуйте
